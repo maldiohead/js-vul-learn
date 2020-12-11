@@ -1,3 +1,13 @@
+
+/*
+Exploiting Chrome V8: (35C3 CTF 2018) inspired  by:
+1.https://www.jaybosamiya.com/blog/2019/01/02/krautflare/
+2.https://www.sunxiaokong.xyz/2020-02-25/lzx-cve-2019-5782/
+bug description ：
+https://bugs.chromium.org/p/project-zero/issues/detail?id=1710
+
+*/
+
 // Auxiliary Functions/*
 /*let conversion_buffer = new ArrayBuffer(8);
 let float_view = new Float64Array(conversion_buffer);
